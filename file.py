@@ -17,6 +17,9 @@ with open(filename) as file_object:
 	pi_lines=''
 	for line in lines:
 		pi_lines +=line.strip()
-	print(pi_lines)
+	print(pi_lines[:52]+'...')
 	print(len(pi_lines))
 #打开文体文件int float转换数字使用
+
+
+
